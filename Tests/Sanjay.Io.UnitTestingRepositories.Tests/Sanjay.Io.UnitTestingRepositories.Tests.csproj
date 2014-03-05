@@ -102,7 +102,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Sanjay.Io.UnitTestingRepositories.csproj">
+    <ProjectReference Include="..\..\..\..\..\..\..\GitHub\Sanjay.Io.UnitTestingRepositories\Sanjay.Io.UnitTestingRepositories.csproj">
       <Project>{97f94808-e1bd-463a-bdab-41e4bd94c8a9}</Project>
       <Name>Sanjay.Io.UnitTestingRepositories</Name>
     </ProjectReference>
