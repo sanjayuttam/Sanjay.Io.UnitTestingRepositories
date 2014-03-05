@@ -33,7 +33,7 @@ namespace Sanjay.Io.UnitTestingRepositories.Tests
         public void Test_Get_Customer_By_Id()
         {
             var result = new CustomerRepository(DbFactory).Get(1);
-            Assert.AreEqual(1, result);
+            Assert.AreEqual(1, result.Id);
         }
     }
 }
